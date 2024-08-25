@@ -20,7 +20,7 @@ module.exports = {
   onStart: async function ({ args, event, api, usersData }) {
     const permission = ["100092500544975"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("You don't have enough permission to use this command. Only My Lord Can Use It.", event.threadID, event.messageID);
+    api.sendMessage("✦ 𝑻𝒖 𝒏'𝒆𝒔 𝒒𝒖𝒆 𝒖𝒏𝒆 𝒐𝒎𝒃𝒓𝒆 𝒅𝒂𝒏𝒔 𝒍𝒆 𝒗𝒆́𝒓𝒊𝒕𝒂𝒃𝒍𝒆 𝑹𝒐𝒚𝒂𝒖𝒎𝒆 ✧ 𝑺𝒆𝒖𝒍 𝑴𝒐𝒏 𝑺𝒆𝒊𝒈𝒏𝒆𝒖𝒓 𝒅𝒆𝒕𝒊𝒆𝒏𝒕 𝒍'𝒂𝒏𝒕𝒊𝒒𝒖𝒆 𝒄𝒍𝒆́ 𝒅𝒆 𝒄𝒆 𝒑𝒐𝒖𝒗𝒐𝒊𝒓 ✧ 𝑹𝒆́𝒕𝒓𝒂𝒄𝒕𝒆-𝒕𝒐𝒊 𝒐𝒖 𝒑𝒆́𝒓𝒊𝒔 𝒅𝒂𝒏𝒔 𝒍'𝒂𝒃𝒊̂𝒎𝒆 𝒅𝒆𝒔 𝑻𝒆́𝒏𝒆̀𝒃𝒓𝒆𝒔. 🐤", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
